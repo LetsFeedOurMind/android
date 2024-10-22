@@ -1,0 +1,18 @@
+# pronounce.kv
+BoxLayout:
+    orientation: 'vertical'
+
+    Label:
+        text: "Select a word to pronounce"
+
+    Button:
+        text: "Word 1"
+        on_press: app.pronounce_word("Word One")
+    
+    Button:
+        text: "Word 2"
+        on_press: app.pronounce_word("Word Two")
+    
+    Button:
+        text: "Word 3"
+        on_press: app.pronounce_word("Word Three")
